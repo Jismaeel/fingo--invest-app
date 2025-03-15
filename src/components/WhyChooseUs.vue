@@ -1,83 +1,72 @@
-<script setup></script>
+<script setup>
+import { ref } from "vue";
+
+const items = ref([
+  {
+    image: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg", // Financial advisors consulting
+    term: "Trusted Advisors",
+    definition:
+      "Our team consists of seasoned financial professionals with years of expertise in investment strategies.",
+  },
+  {
+    image: "https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg", // Growth and ROI graph
+    term: "High ROI (Return on Investment)",
+    definition:
+      "We offer investment opportunities that maximize profit potential while balancing risk.",
+  },
+  {
+    image: "https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg", // Cybersecurity and data protection
+    term: "Secure Platform",
+    definition:
+      "Your investments and personal data are safeguarded with advanced encryption and security measures.",
+  },
+]);
+</script>
+
 <template>
   <section class="bg-gray-50 rounded-2xl mx-3 shadow-xl">
     <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
       <div class="max-w-screen-md mb-8 lg:mb-16">
-        <h2
-          class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 ">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">
           Why Choose Us
         </h2>
-        <p class="text-gray-500 sm:text-xl ">
-          FINGO INVESTMENTS — Since 2020, we’ve delivered innovative, high-return investment solutions. From hedge funds to stocks, bonds, real estate, and forex, we offer short and long-term plans designed for lasting growth.
+        <p class="text-gray-500 sm:text-xl">
+          FINGO INVESTMENTS — Since 2020, we’ve delivered innovative,
+          high-return investment solutions. From hedge funds to stocks, bonds,
+          real estate, and forex, we offer short and long-term plans designed
+          for lasting growth.
         </p>
       </div>
       <div
         class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
-        <div>
-          <div
-            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
-            <svg
-              class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                fill-rule="evenodd"
-                d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z"
-                clip-rule="evenodd"></path>
-            </svg>
-          </div>
-          <h3 class="mb-2 text-xl font-bold ">
-            Trusted Advisorsng
-          </h3>
-          <p class="text-gray-500 ">
-            Our team consists of seasoned financial professionals with years of
-            expertise in investment strategies.
-          </p>
-        </div>
-        <div>
-          <div
-            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12">
-            <svg
-              class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"></path>
-            </svg>
-          </div>
-          <h3 class="mb-2 text-xl font-bold ">
-            High ROI (Return on Investment)
-          </h3>
-          <p class="text-gray-500 ">
-            We offer investment opportunities that maximize profit potential
-            while balancing risk.
-          </p>
-        </div>
-        <div>
-          <div
-            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12">
-            <svg
-              class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                fill-rule="evenodd"
-                d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z"
-                clip-rule="evenodd"></path>
-              <path
-                d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z"></path>
-            </svg>
-          </div>
-          <h3 class="mb-2 text-xl font-bold ">
-            Secure Platform
-          </h3>
-          <p class="text-gray-500 ">
-            Your investments and personal data are safeguarded with advanced
-            encryption and security measures.
-          </p>
+        <div v-for="(item, index) in items" :key="index">
+          <a
+            class="group relative block bg-black rounded-xl overflow-hidden shadow-lg transition hover:scale-105">
+            <img
+              :alt="`Investment feature: ${item.term}`"
+              :src="item.image"
+              class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50" />
+
+            <div class="relative mb-2 p-4 sm:p-6 lg:p-8">
+              <p
+                class="text-sm font-medium uppercase tracking-widest text-pink-500">
+                Fingo Investments
+              </p>
+
+              <p class="text-xl font-bold text-white sm:text-2xl">
+                {{ item.term }}
+              </p>
+
+              <div class="mt-32 sm:mt-48 lg:mt-64">
+                <div
+                  class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
+                  <p class="text-sm text-white">
+                    {{ item.definition }}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>

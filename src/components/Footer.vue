@@ -2,7 +2,7 @@
 <template>
   <footer class="block">
     <!-- Container -->
-    <div class="py-16 md:py-20 mx-auto w-full max-w-7xl px-5 md:px-10">
+    <div class="py-10 md:py-20 mx-auto w-full max-w-7xl px-5 md:px-10">
       <!-- Component -->
       <div class="flex-col flex items-center">
         <a
@@ -19,22 +19,12 @@
           <a
             href="javascript:void(0);"
             class="inline-block px-6 py-2 font-normal text-black transition hover:text-blue-600">
-            Features
+            Services
           </a>
           <a
             href="javascript:void(0);"
             class="inline-block px-6 py-2 font-normal text-black transition hover:text-blue-600">
-            Works
-          </a>
-          <a
-            href="javascript:void(0);"
-            class="inline-block px-6 py-2 font-normal text-black transition hover:text-blue-600">
-            Support
-          </a>
-          <a
-            href="javascript:void(0);"
-            class="inline-block px-6 py-2 font-normal text-black transition hover:text-blue-600">
-            Help
+           Contact
           </a>
         </div>
         <div class="mb-8 mt-8 border-b border-gray-300 w-48"></div>
@@ -74,7 +64,7 @@
           </a>
         </div>
         <p class="text-sm sm:text-base">
-          © Copyright 2021. All rights reserved.
+          © Copyright 2025. All rights reserved.
         </p>
       </div>
     </div>

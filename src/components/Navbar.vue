@@ -11,34 +11,34 @@ const toggleMenu = () => {
 
 const getLinkClasses = (path) => {
   return route.path === path
-    ? "text-blue-700 font-semibold"
+    ? "text-gray-50 underline font-semibold"
     : "text-gray-50 hover:text-blue-700 transition-all";
 };
 </script>
 
 <template>
-  <nav class="mt-2 mx-5 border-gray-200 shadow-sm transition-all duration-300 bg-black rounded-4xl" role="navigation">
+  <nav class="mt-2 mx-5 border-gray-200 shadow-sm transition-all duration-300 bg-black rounded-3xl" role="navigation">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <div class="flex items-center space-x-3">
-        <span class="text-white self-center text-xl font-semibold whitespace-nowrap">Fingo Investments</span>
+        <span class="text-white self-center text-xl font-semibold whitespace-nowrap">Fingo Inc</span>
       </div>
 
       <!-- Menu button for small screens -->
       <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
         <button
           type="button"
-          class="text-white bg-black hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-700 font-medium rounded-lg text-sm px-4 py-2">
+          class="text-white border-2 border-amber-50 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-700 font-medium rounded-lg text-sm px-4 py-2">
           Get a Quote
         </button>
         <button
           @click="toggleMenu"
           type="button"
-          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden"
           :aria-expanded="isMenuOpen"
           aria-controls="navbar-cta">
-          <span class="sr-only">Open main menu</span>
+  
           <svg
-            class="w-6 h-6 text-gray-800"
+            class="w-6 h-6 text-gray-50"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -59,7 +59,7 @@ const getLinkClasses = (path) => {
       <div
         :class="[
           'items-center justify-between w-full md:flex md:w-auto md:order-1 ',
-          isMenuOpen ? 'block bg-gray-100' : 'hidden',
+          isMenuOpen ? 'block bg-black' : 'hidden',
         ]"
         id="navbar-cta">
         <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">

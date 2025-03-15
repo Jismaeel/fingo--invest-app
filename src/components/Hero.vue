@@ -2,7 +2,7 @@
 <template>
   <header>
     <!-- Hero Container -->
-    <div class="mx-auto w-full max-w-7xl px-5 py-16 md:px-8 md:py-8">
+    <div class="mx-auto w-full max-w-7xl px-5 py-10 md:px-8 md:py-8">
       <!-- Component -->
       <div
         class="grid items-center justify-items-start gap-8 sm:gap-16 md:grid-cols-2">
