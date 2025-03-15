@@ -3,9 +3,9 @@ import { ref } from "vue";
 
 // Define the array of items
 const items = ref([
-  { term: "Stocks", definition: "Invest in company shares." },
-  { term: "Real Estate", definition: "Buy properties for rental income." },
-  { term: "Crypto", definition: "Trade digital currencies like Bitcoin." },
+  { term: "Short term Investment plans", definition: "Cover amount starts from R30000 to R10000 12 Months waiting period Plus a free death benefit of up to R25000" },
+  { term: "Long term Investment plans", definition: "Cover amounts starts from R100000 to R500000 Returns yield after 10 to 11 years Plus a free death benefit of up to R25000" },
+  { term: "Benefits", definition: "Receive 100% cash back benefit after eight (8) monthsTrade digital currencies like Bitcoin." },
 ]);
 </script>
 
@@ -29,7 +29,6 @@ const items = ref([
         <a
           v-for="(item, index) in items"
           :key="index"
-          href="#"
           class="group relative block h-64 sm:h-80 lg:h-56">
           <span
             class="absolute inset-0 border-2 border-dashed border-black"></span>
@@ -71,7 +70,7 @@ const items = ref([
                 {{ item.definition }}
               </p>
 
-              <p class="mt-8 font-bold">Read more</p>
+              <a href="#" class="mt-5 font-bold hover:underline">Read more</a>
             </div>
           </div>
         </a>

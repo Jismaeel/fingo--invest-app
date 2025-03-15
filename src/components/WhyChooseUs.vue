@@ -8,11 +8,7 @@
           Why Choose Us
         </h2>
         <p class="text-gray-500 sm:text-xl ">
-          Founded in 2020, FINGO INVESTMENTS is a multi - national company
-          engaged in advanced investment solutions. We offer short - term and
-          long - term investment plans that yield positive returns through hegde
-          fund investments e.g. stocks, shares, bonds, property and foreign
-          currency exchange.
+          FINGO INVESTMENTS — Since 2020, we’ve delivered innovative, high-return investment solutions. From hedge funds to stocks, bonds, real estate, and forex, we offer short and long-term plans designed for lasting growth.
         </p>
       </div>
       <div

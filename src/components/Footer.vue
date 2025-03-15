@@ -8,10 +8,7 @@
         <a
           href="javascript:void(0);"
           class="mb-8 inline-block max-w-full text-black">
-          <img
-            src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94d6f4e6cf96_Group%2047874-3.png"
-            alt=""
-            class="inline-block max-h-10" />
+          <p>Fingo Investments</p>
         </a>
         <div class="text-center font-semibold">
           <a

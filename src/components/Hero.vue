@@ -2,7 +2,7 @@
 <template>
   <header>
     <!-- Hero Container -->
-    <div class="mx-auto w-full max-w-7xl px-5 py-16 md:px-8 md:py-20">
+    <div class="mx-auto w-full max-w-7xl px-5 py-16 md:px-8 md:py-8">
       <!-- Component -->
       <div
         class="grid items-center justify-items-start gap-8 sm:gap-16 md:grid-cols-2">
@@ -11,7 +11,7 @@
           <!--    Hero Divider -->
           <div class="mb-4 flex items-center">
             <div class="mr-4 w-10 border-t border-black"></div>
-            <p class="text-sm font-medium sm:text-base">500+ Components</p>
+            <p class="text-sm font-medium sm:text-base">investing in your future</p>
           </div>
           <!-- Hero Title -->
           <h1 class="mb-4 text-4xl font-bold md:text-6xl md:leading-tight">
@@ -64,9 +64,9 @@
         </div>
         <!-- Hero Image -->
         <img
-          src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
+          src="../assets/img/investment.png"
           alt=""
-          class="inline-block h-full w-full max-w-2xl" />
+          class="inline-block h-full w-full max-w-2xl rounded-lg" />
       </div>
     </div>
   </header>
