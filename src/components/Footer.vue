@@ -29,7 +29,7 @@
         </div>
         <div class="mb-8 mt-8 border-b border-gray-300 w-48"></div>
         <div
-          class="mb-12 grid-cols-4 grid-flow-col grid max-w-52 gap-8 mx-auto">
+          class="mb-12 max-w-52 gap-8 mx-auto">
           <a
             href="javascript:void(0);"
             class="mx-auto flex-col flex max-w-6 items-center justify-center text-black">
@@ -38,30 +38,7 @@
               alt=""
               class="inline-block" />
           </a>
-          <a
-            href="javascript:void(0);"
-            class="mx-auto flex-col flex max-w-6 items-center justify-center text-black">
-            <img
-              src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a945560e6cf77_Vector.svg"
-              alt=""
-              class="inline-block" />
-          </a>
-          <a
-            href="javascript:void(0);"
-            class="mx-auto flex-col flex max-w-6 items-center justify-center text-black">
-            <img
-              src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a940535e6cf7a_Vector-3.svg"
-              alt=""
-              class="inline-block" />
-          </a>
-          <a
-            href="javascript:void(0);"
-            class="mx-auto flex-col flex max-w-6 items-center justify-center text-black">
-            <img
-              src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a9433a9e6cf88_Vector-2.svg"
-              alt=""
-              class="inline-block" />
-          </a>
+         
         </div>
         <p class="text-sm sm:text-base">
           © Copyright 2025. All rights reserved.

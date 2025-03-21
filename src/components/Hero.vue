@@ -19,8 +19,7 @@
           </h1>
           <p
             class="mb-6 max-w-lg text-sm text-gray-500 sm:text-xl md:mb-10 lg:mb-12">
-            We provide the tools and resources you need to make investing easy
-            and accessible for everyone, no matter your experience level.
+         We offer the best deals on monthly premiums with low risk and positive returns, helping you save, invest, or access business funding—hassle-free.
           </p>
           <!-- Form -->
           <form

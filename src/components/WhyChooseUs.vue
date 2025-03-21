@@ -10,7 +10,7 @@ const items = ref([
   },
   {
     image: "https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg", // Growth and ROI graph
-    term: "High ROI (Return on Investment)",
+    term: "Healthy ROI (Return on Investment)",
     definition:
       "We offer investment opportunities that maximize profit potential while balancing risk.",
   },
@@ -31,10 +31,14 @@ const items = ref([
           Why Choose Us
         </h2>
         <p class="text-gray-500 sm:text-xl">
-          FINGO INVESTMENTS — Since 2020, we’ve delivered innovative,
-          high-return investment solutions. From hedge funds to stocks, bonds,
-          real estate, and forex, we offer short and long-term plans designed
-          for lasting growth.
+          Founded in 2020, FINGO INVESTMENTS is a multinational company
+          specializing in advanced investment solutions. We offer short- and
+          long-term plans with positive returns through hedge fund investments,
+          including stocks, shares, bonds, property, and forex trading. To add
+          more value, we provide two free benefits: financial theft/fraud
+          protection and a death benefit. At Fingo, transparency and
+          client-first service are our priorities, ensuring you have the
+          knowledge and confidence to invest wisely.
         </p>
       </div>
       <div
